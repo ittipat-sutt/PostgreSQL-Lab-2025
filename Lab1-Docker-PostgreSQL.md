@@ -581,20 +581,20 @@ SET search_path TO public;
 ```
 
 **บันทึกผลการทดลอง - Step 10:**
-```
+
 ใส่ Screenshot ของ:
 1. ผลการแสดง search_path
-2. ผลการ query ภายใน schema เดียวกัน (sales.customers + sales.orders)
-3. ผลการ JOIN ข้าม schemas (sales + hr + inventory)
-4. ข้อมูลที่แสดงจาก complex join ข้าม 3 schemas
-```
+   <img width="1147" height="700" alt="image" src="https://github.com/user-attachments/assets/4f2b8c06-8ba2-4878-9170-107643a2f9b2" />
+<img width="1307" height="930" alt="image" src="https://github.com/user-attachments/assets/7d451863-1384-45d7-b99a-ac213aa44431" />
+<img width="1182" height="963" alt="image" src="https://github.com/user-attachments/assets/3b6255c5-d480-43e5-9464-3cb948d4ded4" />
+
 
 ### Step 11: ทดสอบการเชื่อมต่อจาก User อื่น
 
 ```bash
 # เปิด Terminal ใหม่และทดสอบเชื่อมต่อด้วย lab_user
 docker exec -it postgres-lab psql -U lab_user -d lab_db
-```
+
 
 ```sql
 -- ทดสอบสิทธิ์ของ lab_user
