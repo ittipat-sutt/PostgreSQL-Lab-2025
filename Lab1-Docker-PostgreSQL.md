@@ -402,13 +402,13 @@ GRANT SELECT ON postgres_test_table TO lab_user;
 <img width="1351" height="903" alt="image" src="https://github.com/user-attachments/assets/4445e710-8ea5-4d97-b764-b4d6cc59a544" />
 
 
-```
+
 **คำถาม
- ```
+ 
 Access Privileges   postgres=arwdDxtm/postgres มีความหมายอย่างไร
 
 
- ```
+ 
 ### Step 9: Schema Management และ Namespace
 
 ```sql
