@@ -521,7 +521,6 @@ INSERT INTO hr.employee_orders (employee_id, customer_id, order_date, commission
 <img width="1553" height="973" alt="image" src="https://github.com/user-attachments/assets/546aff21-93ce-428c-9ae2-e8a66358b903" />
 <img width="1386" height="841" alt="image" src="https://github.com/user-attachments/assets/f40cfa4a-fcc1-429f-8ab6-02729d667c56" />
 
-```
 
 ### Step 10: ทดสอบการเข้าถึง Schema และ Search Path
 
