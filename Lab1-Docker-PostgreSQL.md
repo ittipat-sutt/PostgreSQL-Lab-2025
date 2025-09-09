@@ -596,7 +596,7 @@ SET search_path TO public;
 docker exec -it postgres-lab psql -U lab_user -d lab_db
 
 
-sql
+```sql
 -- ทดสอบสิทธิ์ของ lab_user
 \conninfo
 
@@ -613,11 +613,10 @@ INSERT INTO test_permissions (name) VALUES ('Test by lab_user'); -- ทำไม
 ```
 
 **บันทึกผลการทดลอง - Step 11:**
-```
+
 ใส่ Screenshot ของ:
-1. ผลการเชื่อมต่อด้วย lab_user
-2. ผลการทดสอบสิทธิ์ต่างๆ
-3. ข้อความ error (ถ้ามี) เมื่อไม่มีสิทธิ์
+<img width="1379" height="399" alt="image" src="https://github.com/user-attachments/assets/135499eb-ac63-4ede-8b8d-7ada088db779" />
+
 
 
 ### Step 12: การจัดการ Volume และ Data Persistence
