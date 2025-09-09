@@ -591,7 +591,7 @@ SET search_path TO public;
 
 ### Step 11: ทดสอบการเชื่อมต่อจาก User อื่น
 
-bash
+```bash
 # เปิด Terminal ใหม่และทดสอบเชื่อมต่อด้วย lab_user
 docker exec -it postgres-lab psql -U lab_user -d lab_db
 
@@ -618,7 +618,7 @@ INSERT INTO test_permissions (name) VALUES ('Test by lab_user'); -- ทำไม
 1. ผลการเชื่อมต่อด้วย lab_user
 2. ผลการทดสอบสิทธิ์ต่างๆ
 3. ข้อความ error (ถ้ามี) เมื่อไม่มีสิทธิ์
-```
+
 
 ### Step 12: การจัดการ Volume และ Data Persistence
 
