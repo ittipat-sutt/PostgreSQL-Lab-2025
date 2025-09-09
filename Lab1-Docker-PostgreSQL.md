@@ -226,7 +226,6 @@ WHERE name IN ('shared_buffers', 'work_mem', 'maintenance_work_mem', 'effective_
 ```
 
 **บันทึกผลการทดลอง - Step 5:**
-```
 ใส่ Screenshot ของ:
 1. ผลการรัน SELECT version();
 <img width="1472" height="142" alt="Screenshot 2025-09-09 154419" src="https://github.com/user-attachments/assets/9e276beb-c9d5-4073-9b5f-8f14f3c3609f" />
@@ -235,7 +234,7 @@ WHERE name IN ('shared_buffers', 'work_mem', 'maintenance_work_mem', 'effective_
 <img width="1460" height="810" alt="Screenshot 2025-09-09 154536" src="https://github.com/user-attachments/assets/318da496-f974-4391-9cf2-17307c8d4f2d" />
 
 3. ผลการรัน \l และ \du
-```<img width="1577" height="452" alt="Screenshot 2025-09-09 153910" src="https://github.com/user-attachments/assets/0f7dc9f6-9d6c-49fa-983c-3f3cf9ee7eae" />
+<img width="1577" height="452" alt="Screenshot 2025-09-09 153910" src="https://github.com/user-attachments/assets/0f7dc9f6-9d6c-49fa-983c-3f3cf9ee7eae" />
 <img width="975" height="177" alt="Screenshot 2025-09-09 154347" src="https://github.com/user-attachments/assets/0eb5e0e8-788b-477d-a434-1f12c35234b5" />
 
 
